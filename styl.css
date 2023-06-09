@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    border: 0;
+  
+}
+
+.navbar{
+    padding: 10px 200px;
+    
+}
+header{
+    background-image: url(images/bg.png);
+    height: 90.25vh;
+    
+    
+}
+.logo{
+    padding: 165px 550px 50px 550px;
+    width: fit-content;
+}
+.logo img{
+    align-items: center;
+    width: 300px;
+    height: 70px;
+
+}
+.container{
+    padding: 50px 50px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px  ;
+    padding-top: 25px;
+
+}
+.flex .flx-itm{
+    border: 1px solid rgba(128, 128, 128, 0.284);
+    border-radius: 7px;
+    width: 385px;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    height: fit-content;
+    box-shadow:0px 2px 2px .2px rgba(223, 221, 221, 0.437);
+   
+}
+.flex .flx-itm:hover{
+    box-shadow:0px 3px 9px .5px rgb(223, 221, 221);
+    transition: .1s;
+}
+.flex .flx-itm p{
+    position: relative;
+    top: 9px;
+    display: flex;
+    justify-content: space-between;
+    font-size: .5rem;  
+    font-weight: 300;
+
+}
+.flex .flx-itm p svg{
+    position: relative;
+    top: 15px;
+
+}
+.flex .flx-itm .text-center{
+   
+    color: rgba(28, 28, 28, 0.823);
+    padding-left: 15px;
+    padding-right: 15px
+    
+    
+}
+.cntree{
+    text-align: left;
+}
+.cntree .flex .flx-itm .text-center{
+    position: relative;
+    top: 15px;
+}
+footer{
+    padding: 60px 90px;
+    background-color:#f8f8f8;
+}
+.flag{
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+.flag img{
+    width: 30px;
+}
+.lng{
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    margin-right: 30px
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+   padding: 30px 100px 50px 0px;
+   border-bottom: 1px solid gray;
+}
+
+.footer-flex p{
+    font-size: .9rem;
+    line-height: 1rem;
+    color: rgb(105, 105, 105);
+    letter-spacing: .1px;
+
+}
+.footer-flex h6{
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.fifth img{
+    width: 120px;
+}
+#para{
+    font-size: .9rem;
+    color: rgb(79, 79, 79);
+    line-height: 1.7rem;
+    
+}
